@@ -1,0 +1,107 @@
+ body{
+    margin: auto;
+ }
+ .todoheading{
+    color: black;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+ }
+ .addtodo{
+   width:600px;
+   height: 45px;
+   display: flex;
+   background-color: white;
+   border-radius: 10px;
+   justify-content: space-between;
+ }
+ .image{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+ }
+ .addtodo input{
+    font-size: larger;
+    border: none;
+    border-radius: 8px;
+    width:90%;
+    outline: none;
+ }
+ .outer{
+    width:700px;
+    min-height: 300px;
+    margin:auto;
+    padding-bottom: 10px;
+    background-color: rgb(185, 218, 218);
+    padding-top: 30px
+ }
+ .inner{
+    width:600px;
+    min-height: 200px;
+    margin:auto;
+    background-color: rgb(251, 249, 249);
+    padding:15px;
+    border-radius: 10px;
+ }
+.sub-heading{
+   width:600px;
+   display: flex;
+   margin-top: 10px;
+   border-radius: 10px;
+   justify-content: space-between;
+}
+.icon{
+   height: 25px;
+   width: 25px;
+   border-radius: 50%;
+  
+}
+.marginbottom{
+    margin-left: -45%;
+}
+.todolist{
+   width:600px;
+   min-height: 75px;
+   margin-top: 10px;
+   font-size: xx-large;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   border-top: 3px solid  rgb(162, 158, 159) ;
+   border-bottom: 3px solid  rgb(162, 158, 159) ;
+}
+.item{
+   height: 40px;
+   min-width:600px;
+   display: flex;
+   font-weight: 400;
+   font-family: sans-serif;
+   padding: 10px 0px;
+   margin-top: 3px;
+   margin-bottom: 3px;
+   justify-content: space-between;
+}
+.item:hover{
+   background-color: rgb(230, 230, 51);
+}
+.deletebutton{
+   height: 30px;
+   width: 30px;
+   border-radius:100%;
+   margin-top: 5px;
+   cursor: pointer;
+}
+.checkbox-round{
+   width:  20px;
+   height:  20px;
+   cursor: pointer;
+}
+ul {
+   margin: 0;
+   padding: 0;
+ }
+ 
+  
+ 

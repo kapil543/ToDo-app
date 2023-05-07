@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="todo.css">
+	<title>TODO APP</title>
+</head>
+ <body>
+        <!-- Header file for TODO Application -->
+    <div class="todoheading">
+        <h1>TODO APPLICATION</h1>
+    </div>
+
+    <div class="outer">
+        <div class="inner">
+            <div class="addtodo">
+                    <img   class="image" src="https://img.icons8.com/?size=512&id=TFa5dmzOAaDh&format=png">
+                    <input id="todo-input" type="textarea" required name="desc" placeholder="What do you need to do ?"> 
+                    <img id="addbutton" class="image" src="https://img.icons8.com/?size=512&id=59864&format=png">
+            </div>
+            <div class="sub-heading">
+                    <img class="icon" src="https://www.shutterstock.com/image-vector/check-list-button-icon-mark-600w-237615247.jpg"> <div class="marginbottom" >     Complete all tasks  </div> 
+                 <span>Clear completed</span>
+            </div>
+            <ul id="ul" class="todolist">
+                <li class="item">
+                    <div> 
+                        <input class="checkbox-round" type="checkbox" > Complete  FE skill test
+                    </div>
+                    <span class="deletebutton">&times</span>  
+                </li>
+                <li class="item">
+                    <div> 
+                        <input class="checkbox-round" type="checkbox" > Complete  DSA skill test
+                    </div>
+                    <span class="deletebutton">&times</span>  
+                </li>
+            </ul>
+            <div class="sub-heading">
+             <span><b id="count">3</b>  tasks left </span> 
+             <span><b> All </b>&nbsp Uncomplete &nbsp Complete</span>
+        </div>
+        </div>
+    </div> 
+        
+    <Script src="todo.js"></Script>
+ </body>
+</html>
